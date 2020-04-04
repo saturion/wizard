@@ -1,0 +1,21 @@
+{
+  "name": "Wizard",
+  "version": "1.0.0",
+  "description": "An online Wizard card game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "multiplayer",
+    "game",
+    "browser"
+  ],
+  "author": "Immortal Beaver",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
